@@ -13,8 +13,8 @@ const EmpSkills= (skills)=> {
  console.log("Expert in "+ skills)
 }
 EmpSkills("java")
-const student= require('./studentInfo')
-const person = require('./person')
+const student= require('./StudentInfo')
+const person = require('./Person')
 // because getName is the function so we use ()
 console.log("Student Name:" +student.getName())
 console.log(student.Location())
